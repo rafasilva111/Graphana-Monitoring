@@ -42,3 +42,8 @@ services:
 volumes:
   prometheus_data:
   grafana_data:
+  
+networks:
+  default:
+    name: monitoring-net
+    driver: bridge
